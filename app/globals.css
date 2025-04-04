@@ -46,6 +46,19 @@ body {
     --sidebar-accent-foreground: 0 0% 100%; /* White text for sidebar accent */
     --sidebar-border: 210 50% 80%; /* Light blue sidebar border */
     --sidebar-ring: 45 100% 50%; /* Bright yellow sidebar ring */
+    --glass-bg: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    --glass-border: rgba(255, 255, 255, 0.4); /* Border color */
+    --glass-shadow: rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    --glass-blur: 10px; /* Blur intensity */
+  }
+
+  .glass {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    box-shadow: 0 4px 6px var(--glass-shadow);
+    border-radius: 12px;
   }
 }
 

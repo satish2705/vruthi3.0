@@ -21,9 +21,9 @@ export function MainNav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="border-b">
-      <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="font-bold text-xl flex items-center gap-2">
+    <header className="border-b justify-center bg-background shadow-sm">
+      <div className="container flex h-16 items-center justify-between px-4">
+        <Link href="/" className="font-bold text-xl flex items-center gap-2 ">
           JobPortal
         </Link>
 
