@@ -96,7 +96,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">© 2023 JobPortal. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">© 2023 JobPortal. All rights reserved. Created by JohnSatish and Twinkle Roy</p>
           <div className="flex flex-wrap gap-4 text-sm">
             <Link href="/terms" className="text-muted-foreground hover:text-foreground">
               Terms
